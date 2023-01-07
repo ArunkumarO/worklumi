@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,22 +8,117 @@
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
         crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/2ac5358d3d.js" crossorigin="anonymous"></script>
 
+    <style>
+        .carosbtn {
+
+            background-color: blueviolet;
+            color: white;
+            border-radius: 30px;
+            font-size: 15px;
+            width: 190px;
+            height: 60px;
+            font-weight: bold;
+            margin-bottom: 40px;
+            margin-left: -583px;
+        }
+
+        .img1 {
+            height: 50px;
+            margin-left: 200px;
+        }
+
+        .top {
+            background-color: blueviolet;
+            color: white;
+        }
+        .luml1{
+            color: blueviolet;
+            margin-top: 100px;
+        }
+        .learnbtn{
+            border: 50px 2px blueviolet;
+        border-radius: 20px;
+            margin-top: 50px;
+            width: 200px;
+            height: 50px;
+            background-color: blueviolet;
+            color: white;
+        }
+        .cours {
+    text-align: center;
+    color: blueviolet;
+    font-weight: 600;
+}
+
+.corspn {
+    color: rgb(146, 102, 186);
+}
+.c1{
+    height: 300px;
+}
+   
+.coup {
+    color: black;
+    font-size: 15px;
+    text-align: start; 
+}  
+.divrow:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+} 
+.he5{
+    color: rgb(106, 17, 189);
+}
+.calnd {
+    color: rgb(158, 127, 127);
+    margin-left: -196px;
+}
+
+.span1 {
+    color: black;
+    font-size: 12px;
+    text-align: start;
+    font-weight: 700;
+}
+
+.clck{
+    color: rgb(158, 127, 127);
+    margin-left: -152px;
+}
+
+.grad {
+    color:  rgb(158, 127, 127);
+    margin-left: -346px;
+}
+
+.span3 {
+    color: black;
+    font-size: 12px;
+    text-align: start;
+}
+
+
+    </style>
 </head>
-<body>
-    <nav class="navbar navbar-expand-lg bg-white">
-        <div class="container">
-            <a class="navbar-brand" href="#"><img src="images/images.png" alt=""></a>
+
+<body style="height: 2000px;" >
+    <div class="top">
+        <p class="ps-5">Have any Question? +91 8086651651</p>
+    </div>
+    <nav class="navbar navbar-expand-lg ps-5 bg-white sticky-top" style="height: 50px;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img class="img1" src="./images/logoimg.png" alt=""></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse nv" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto mb-2 pb-3 mb-lg-0 fs-6">
+                <ul class="navbar-nav ms-auto mb-1 pb-3 pe-5 mb-lg-0 fs-6">
                     <li class="nav-item   ">
                         <a class="nav-link  " aria-current="page" href="#">HOME</a>
                     </li>
@@ -46,7 +142,144 @@
             </div>
         </div>
     </nav>
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
 
+        <div class="carousel-inner">
+            <div class="carousel-item active " data-bs-interval="5500">
+                <img style="height:550px;" src="./images/img2.jpeg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block container me-5">
+                    <h1 class=" caros h1-1 pb-3">Kerala's No.1 IT Finishing School <br> 100% Placement Assistance</h1>
+                    <p class="caros p-1 container pb-5 ">We at LUMINAR TECHNOLAB offers best software training and
+                        placement in
+                        emerging <br> technologies like
+                        BIG DATA, Data Science, Machine Learning,PYTHON, Software Testing.</p>
+                    <button class="btn btn carbton ">VIEW COURSES</button>
+                </div>
+            </div>
+            <div class="carousel-item " data-bs-interval="5500">
+                <img style="height:550px" src="./images/image 1 (1).jpeg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block container me-5 ">
+                    <h1 class=" caros h1-1 carosh1-2  ">Data Science, ML &amp; AI <br> Big Data - Hadoop &amp; Spark
+                        <br>
+                        Python
+                        Data Science</h1>
+                    <p class="caros p-1 caros p-2 container ">We LUMINAR TECHNOLAB offers best software training and
+                        placement
+                        in
+                        emerging <br> technologies like Big Data, Hadoop, Spark,Data Scince, Machine Learning, Deep
+                        Learning
+                        and <br> AI.</p>
+                    <br><br>
+                    <button type="button" class="carosbtn">VIEW COURSES</button>
+
+                </div>
+
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        Launch demo modal
+    </button>
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog container w-75">
+            <div class="modal-content">
+
+                <div class="modal-body container w-75 ">
+                    <h6 class="pb-2">Get Training Quote for free</h6>
+                    <form action="">
+                        <input style="box-shadow:none ;" type="text" placeholder="Name" id="sn1"
+                            class=" mb-2 form-control border-0 inp ">
+                        <hr>
+                        <input style="box-shadow:none ;" type="text" placeholder="Email" id="sn1"
+                            class=" mb-2 form-control border-0">
+                        <hr>
+                        <input style="box-shadow:none ;" type="text" placeholder="Phone Number" id="sn1"
+                            class=" mb-2 form-control border-0">
+                        <hr>
+                        <select style="box-shadow:none ;" name="" id="" class="border-0">
+                            <option value=""> Select courses intrested in</option>
+                            <option value="">Data Science - ML - AI - Big data with cloud & Tableau</option>
+                            <option value="">Python Django-Angular-Full stack web development </option>
+                            <option value="">Software testing speacilist</option>
+                            <option value="">Business Analytics Power BI & Tableau</option>
+                            <option value="">Android Developer Expert Traing in Kochi-Flutter</option>
+                            <option value="">Python-Data science-with-ML-AI-&TABLEAU</option>
+
+                        </select>
+                        <hr>
+                        <input style="box-shadow:none ;" type="text" placeholder="City" id="sn1"
+                            class=" mb-3 form-control border-0">
+                        <hr>
+                        <textarea name="" class="form-control " id="" cols="10" rows="4"> </textarea><br>
+                        <button class="btn btn-outline-primary"> SUBMIT</button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="container w-75">
+        <div class="row">
+            <div class="col-lg-6 col-md-4 ">
+                <h1 class="luml1">Luminar Technolab Pvt Ltd</h1>
+                <p>CIN: U80220KL2021PTC071578</p>
+                <p class="text-justify">Luminar Technolab is an IT Finishing School located near Infopark - Cochin, focused on providing
+                    advanced level software training to Students and by helping them to get placed in IT companies. We
+                    are a team of IT professionals who have experience in IT sector for more than 15 plus years. Our
+                    fresher's career foster programs are Big Data Training, Data Science Training, Data Analytics
+                    Training, Python Training, Software Testing Training & Selenium Training in Cochin, Kerala are
+                    designed in such a way to match with the current industry requirements. Our Vision is to provide
+                    100% placements to students those who enroll with us for our specialized courses.</p>
+                <button type="button" class="learnbtn">LEARN MORE</button>
+            </div>
+            <div class="col-6 ps-3">
+                <img src="./images/qq.jpg" alt="">
+
+            </div>
+        </div>
+    </div>
+    
+
+    <div class=" bg-light">
+        <div class="cours pt-5 container p-5">
+            <h3 class="cours pb-3 pt-5">OUR <span class="corspn">COURSES</span>
+            </h3>
+<div class="row  container divrow">
+    <div class="col-lg-6 col-md-12 col-sm-12 bg-white ">     
+           <img class="w-100 c1" src="./images/c1.jpeg"  alt="">
+    </div>
+    <div class="col-lg-6 col-md-12 col-sm-12 bg-white ">
+        <h5 class="pb-3 pt-5 he5">DATA SCIENCE - ML - AI - BIG DATA WITH CLOUD & TABLEAU</h5>
+        <p class="coup">Python, Hadoop, Spark, Data Analytics, Linear Algebra, Statistics, Probability <br>
+            Concepts, Machine
+            Learning, Deep Learning, Data Science, Artificial <br> Intelligence, Tableau, AWS Cloud.</p>
+            <p>
+            <i class="fa-solid fa-calendar-days calnd "><span class="span1"> Next Batch : Jan 03rd 2022 (09:30 am
+                - 11:30 am) </span></i><br>
+            </p>
+            <p>
+        <i class="fa-regular fa-clock clck"><span class="span1"> Duration: 6 Months, 5-6 Days a Week, 2-3
+                Hours/day</span></i> <br></p>
+                <p>
+        <i class="fa-solid fa-graduation-cap grad pb-3"> <span class="span1 ">Course Fees:<span
+                    class="viewspan"> VIEW MORE</span></span></i>
+                </p>
+    </div>
+</div>
+</div>
+    
 </body>
 
 </html>
